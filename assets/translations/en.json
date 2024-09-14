@@ -1,0 +1,22 @@
+{
+    "home":"My Tasks",
+    "add_note":"Add Note",
+    "settings":"Settings",
+    "delete":"delete",
+    "cancel":"cancel",
+    "name":"Hi Ahmed",
+    "category":"Main Categories",
+    "social_tasks":"Social Missions",
+    "spiritual":"Spiritual Tasks",
+    "job":"Job Tasks",
+    "educat":"Educational Tasks",
+    "entrtain":"Entrtainment Tasks",
+    "show_all_categ":"Show All Categories",
+    "all_categ_screen":"All Categories Screen",
+    "add_categ":"Add Category",
+    "name_categ":"Category Name",
+    "des_categ":"Category Describtion",
+    "save":"save"
+
+
+}
