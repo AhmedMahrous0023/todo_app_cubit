@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:todo_app/Logic%20Business/cubit/categories%20cubit/cubit/categories_cubit.dart';
 import 'package:todo_app/Presentaion/Screens/my_tasks_screen.dart';
 import 'package:todo_app/Presentaion/Widgets/categories%20widgets/category_dialogue.dart';
-import 'package:todo_app/Presentaion/Widgets/categories%20widgets/category_form_field.dart';
 import 'package:todo_app/Presentaion/Widgets/categories%20widgets/horizental_container.dart';
 import 'package:todo_app/Presentaion/Widgets/categories%20widgets/vertical_container.dart';
 import 'package:todo_app/Presentaion/Widgets/text_widget.dart';
+
+import '../../Logic Business/cubit/categories cubit/categories_cubit.dart';
 
 class AllCategoriesScreen extends StatelessWidget {
   const AllCategoriesScreen({super.key});
@@ -62,7 +62,7 @@ class AllCategoriesScreen extends StatelessWidget {
               builder: (context) {
                 return Dialog(
                   child: SizedBox(
-                    height: MediaQuery.sizeOf(context).height * .48,
+                    height: MediaQuery.sizeOf(context).height * .52,
                     width: MediaQuery.sizeOf(context).width * .8,
                     child:CategoryDialogue()
                   ),

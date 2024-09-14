@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:todo_app/Logic%20Business/cubit/categories%20cubit/cubit/categories_cubit.dart';
 import 'package:todo_app/Presentaion/Screens/my_tasks_screen.dart';
 import 'package:todo_app/Presentaion/Widgets/categories%20widgets/add_category_button.dart';
 import 'package:todo_app/Presentaion/Widgets/categories%20widgets/horizental_container.dart';
 import 'package:todo_app/Presentaion/Widgets/categories%20widgets/vertical_container.dart';
+import 'package:todo_app/Presentaion/Widgets/my_drawer.dart';
 import 'package:todo_app/Presentaion/Widgets/text_widget.dart';
 import 'package:todo_app/Presentaion/Widgets/welcome_row.dart';
+
+import '../../Logic Business/cubit/categories cubit/categories_cubit.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -30,6 +32,7 @@ class _HomeScreenState extends State<HomeScreen> {
             fontSize: 18,
             fontWeight: FontWeight.w800,
           )),
+          drawer: MyDrawer(),
       body: Container(
         child: SingleChildScrollView(
           child:

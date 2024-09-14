@@ -24,7 +24,7 @@ class HorizentalContainer extends StatelessWidget {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                                                    TextWidget(text: text,color: Colors.black,fontWeight: FontWeight.w700,),
+                                                TextWidget(text: text,color: Colors.black,fontWeight: FontWeight.w700,),
 
                         ],
                       ),

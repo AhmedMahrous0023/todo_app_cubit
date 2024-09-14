@@ -16,7 +16,8 @@
     "add_categ":"Add Category",
     "name_categ":"Category Name",
     "des_categ":"Category Describtion",
-    "save":"save"
+    "save":"save",
+    "lang_choose":"Change Language"
 
 
 }
